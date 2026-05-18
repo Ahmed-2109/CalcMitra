@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NeoCalc</title>
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="theme-purple">
+
+  <!-- BACKGROUND ORBS -->
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+
+  <!-- PARTICLES -->
+  <div class="particles"></div>
+
+  <main class="calculator-wrapper">
+
+    <!-- TOP BAR -->
+    <header class="top-bar glass">
+
+      <div>
+        <h1>CalcMitra</h1>
+        <p>India's Friendly Calculator</p>
+      </div>
+
+      <div class="top-buttons">
+
+        <!-- THEME SELECTOR -->
+      <select id="themeSelector">
+
+  <option value="theme-purple">
+    💜 Purple Theme
+  </option>
+
+  <option value="theme-blue">
+    💙 Blue Theme
+  </option>
+
+  <option value="theme-pink">
+    💖 Pink Theme
+  </option>
+
+  <option value="theme-green">
+    💚 Green Theme
+  </option>
+
+  <option value="theme-orange">
+    🧡 Orange Theme
+  </option>
+
+</select>
+        <!-- COPY -->
+        <button id="copyBtn">
+          📋
+        </button>
+
+      </div>
+
+    </header>
+
+    <!-- CALCULATOR -->
+    <section class="calculator glass">
+
+      <!-- DISPLAY -->
+      <div class="display">
+
+        <input type="text" id="expression" readonly>
+
+        <div id="result">0</div>
+
+      </div>
+
+      <!-- BUTTONS -->
+      <div class="buttons">
+
+        <button class="btn clear">C</button>
+        <button class="btn operator">/</button>
+        <button class="btn operator">*</button>
+        <button class="btn operator">-</button>
+
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn operator">+</button>
+
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn equal">=</button>
+
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+
+        <button class="btn zero">0</button>
+        <button class="btn">.</button>
+
+      </div>
+
+    </section>
+
+    <!-- HISTORY -->
+    <section class="history glass">
+
+      <div class="history-header">
+
+        <h2>History</h2>
+
+        <button id="clearHistory">
+          Clear
+        </button>
+
+      </div>
+
+      <ul id="historyList"></ul>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
