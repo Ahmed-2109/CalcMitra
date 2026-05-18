@@ -64,9 +64,7 @@ Choose between multiple beautiful color themes:
 
 ## 1️⃣ Live Demo
 
-```bash
 https://ahmed-2109.github.io/CalcMitra/
-```
 
 ---
 
