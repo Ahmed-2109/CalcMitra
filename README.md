@@ -65,7 +65,7 @@ Choose between multiple beautiful color themes:
 ## 1️⃣ Live Demo
 
 ```bash
-git clone https://github.com/your-username/calculator-project.git
+https://ahmed-2109.github.io/CalcMitra/
 ```
 
 ---
